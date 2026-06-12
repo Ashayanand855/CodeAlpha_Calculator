@@ -4,7 +4,9 @@ html, body {
 }
 
 .button{
-    padding: 20px;
+    width: 54px;
+    height: 54px;
+    padding: 0;
     margin: 0 3px;
     border: 2px solid black;
     border-radius: 9px;
@@ -12,7 +14,7 @@ html, body {
 }
 
 .zero{
-   padding: 20px 82px;
+    padding: 20px 89px;
     margin: 0 3px;
     border: 2px solid black;
     border-radius: 9px;
@@ -24,8 +26,9 @@ html, body {
 }
 
 .row input{
+    font-size: 21px;
     margin: 0;
-    padding: 10px 47px;
+    padding: 10px 0px;
     border: 2px solid black;
     border-radius: 7px;
 }
