@@ -15,6 +15,12 @@ Array.from(buttons).forEach((button)=>{
     button.addEventListener('click', (e)=>{
         let buttonText = e.target.innerHTML;
 
+        if(buttonText == "←"){
+            string = string.slice(0, -1);
+            input.value = string;
+            return;
+        }
+
         if(buttonText == 'C'){
             string = "";
             input.value = string;
